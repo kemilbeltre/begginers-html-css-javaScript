@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+
+    /* Aling elements */
+    justify-items: start;
+}
+
+.grid > div{
+    background-color: #ecf0f1;
+    padding: 1em;
+}
+
+.grid > div:hover{
+    border: 1px solid #f1c40f;
+}

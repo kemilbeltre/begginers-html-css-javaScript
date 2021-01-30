@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font: bold 14px sans-serif;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background-color: #2d3436;
+}
+
+.group{
+    width: 960px;
+    margin: 15px auto;
+    background-color: azure;
+}
+.header{
+    background-color: #fffbb9;
+    border: 1px solid;
+    padding: 20px;
+}
+.header h1{
+    text-align: left;
+}
+.menu{
+    background: #cccccc;
+    padding: 15px;
+    text-align: left;
+
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.section{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    background: #fffbb9;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+time{
+    color: #cccccc;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.aside{
+    width: 300px;
+    float: left;
+    margin: 40px 0;  
+}
+
+.aside blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+.footer{
+    clear: both;
+    padding:  20px;
+    background: #2d3436;
+    color: white;
+}
+
+img{
+    width: 80px;
+    display: block;
+    margin: 20px auto;
+} 
