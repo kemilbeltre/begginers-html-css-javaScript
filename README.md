@@ -1,8 +1,8 @@
-### README
+## README
 
 I left a mini description for each mini-project and also the output of them. 
 
-#### Tools:
+### Tools:
 
 - Html
 -Css
@@ -11,8 +11,8 @@ I left a mini description for each mini-project and also the output of them.
 
 
 
-##### appendices:
-   https://freefrontend.com/css-code-examples/
-   https://loremflickr.com
-   https://www.w3schools.com/css/css_grid.asp
-   https://www.youtube.com/channel/UCX9NJ471o7Wie1DQe94RVIg
+####appendices:
+  [freefrontend]: https://freefrontend.com/css-code-examples/
+  [loremflickr]:  https://loremflickr.com
+  [W3SCHOOOLS]:   https://www.w3schools.com/css/css_grid.asp
+  [FAZT CODE]:    https://www.youtube.com/channel/UCX9NJ471o7Wie1DQe94RVIg
