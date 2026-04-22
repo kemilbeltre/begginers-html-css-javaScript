@@ -1,0 +1,80 @@
+name: New Lesson Proposal
+description: Propose a new lesson topic for the bootcamp
+title: "[Lesson]: "
+labels: ["lesson", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new lesson! This is the best way to contribute to the bootcamp.
+
+        Before submitting, please check that:
+        - This topic is not already covered in an existing lesson
+        - The topic is appropriate for absolute beginners
+        - You can explain this concept in your own words without AI assistance
+
+  - type: input
+    id: topic
+    attributes:
+      label: Topic name
+      description: What is the lesson about?
+      placeholder: CSS Grid Layout
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this lesson belong to?
+      options:
+        - HTML
+        - CSS
+        - JavaScript
+    validations:
+      required: true
+
+  - type: textarea
+    id: concept
+    attributes:
+      label: Concept to teach
+      description: In 2-3 sentences, explain what learners will understand after completing this lesson.
+      placeholder: Learners will understand how CSS Grid allows them to create two-dimensional layouts. They will learn the basic properties like grid-template-columns and how to position items within the grid.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why does this belong in the bootcamp?
+      description: Explain how this fits into the learning path for absolute beginners. Why is this concept important?
+      placeholder: CSS Grid is essential for modern web layouts. It complements Flexbox (already covered in lesson 4) and gives beginners a complete toolkit for page structure.
+    validations:
+      required: true
+
+  - type: textarea
+    id: demo-idea
+    attributes:
+      label: Interactive demo idea
+      description: How would you visually demonstrate this concept? What would the user interact with?
+      placeholder: A slider that lets users adjust the number of columns in a grid (1-6), showing how items reflow dynamically. Grid items would be colored boxes with numbers.
+
+  - type: checkboxes
+    id: understanding
+    attributes:
+      label: Self-assessment
+      description: Please confirm the following
+      options:
+        - label: I can explain this concept in my own words without using AI tools
+          required: true
+        - label: I understand this topic well enough to write quiz questions that test comprehension
+          required: true
+        - label: I am willing to implement this lesson with 100% test coverage
+          required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other notes, resources, or examples that might be helpful.
+      placeholder: This would pair well with the existing Flexbox lesson. MDN has good examples we could draw inspiration from (but not copy).
