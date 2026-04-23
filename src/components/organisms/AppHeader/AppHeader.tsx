@@ -4,7 +4,7 @@ import { Code } from "lucide-react";
 
 import { TabSwitcher } from "@molecules/TabSwitcher";
 
-type Tab = "learn" | "quiz";
+type Tab = "learn" | "quiz" | "projects";
 
 interface AppHeaderProps {
   activeTab: Tab;

@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 
-import { BookOpen, CheckCircle } from "lucide-react";
+import { BookOpen, CheckCircle, Rocket } from "lucide-react";
 
-type Tab = "learn" | "quiz";
+type Tab = "learn" | "quiz" | "projects";
 
 interface TabSwitcherProps {
   active: Tab;
@@ -14,6 +14,7 @@ export const TabSwitcher = ({ active, onChange }: TabSwitcherProps) => {
 
   const tabs: { key: Tab; label: string; Icon: typeof BookOpen }[] = [
     { key: "learn", label: t("tab.learn"), Icon: BookOpen },
+    { key: "projects", label: t("tab.projects"), Icon: Rocket },
     { key: "quiz", label: t("tab.exam"), Icon: CheckCircle },
   ];
 

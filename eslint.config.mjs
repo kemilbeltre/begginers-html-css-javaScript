@@ -8,7 +8,7 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   // ── Ignored paths ──────────────────────────────────────────────────────────
-  { ignores: ["dist/**", "coverage/**", "node_modules/**", "Mini-projects/**"] },
+  { ignores: ["dist/**", "coverage/**", "node_modules/**", "Mini-projects/**", "public/**"] },
 
   // ── Base rules ─────────────────────────────────────────────────────────────
   js.configs.recommended,
